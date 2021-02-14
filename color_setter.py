@@ -1,11 +1,9 @@
-def set_color():
-    """This function allows the user to update a color
-        1) ask user for a color name
-        2) ask user for a color value
-        3) overwrite colors.json file, adding the new color name and value
-    """
-    pass
-
+from colors import set_color
 
 if __name__ == "__main__":
-    set_color()
+    """When running as the main script, this program should
+        1) ask user for a color name
+        2) ask user for a color value
+        3) execute `set_color` passing a color name, color value
+    """
+    set_color(None, None)
